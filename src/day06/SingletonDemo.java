@@ -27,7 +27,7 @@ public class SingletonDemo {
         for (int i = 1 ; i <= 10 ; i++) {
               new Thread(() -> {
                   SingletonDemo.getInstance();
-                 System.out.println("mysql003");
+                 System.out.println("mysql001");
               }, String.valueOf(i)).start();
           }
     }
